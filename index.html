@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MimeLys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="logo">
+            <h1><img src="logo.jpg" alt="MimeLys" width="155px"></h1>
+        </div>
+        <div class="texto">
+            <h2>Bem-vindo à MimeLys Clothing, sua loja de roupas e acessórios</h2>
+        </div>
+        <div class="sacola">
+            <p>Nenhum item na sacola de compras
+                <img src="./img/sacola.png" alt="sacola" width="25px">
+            </p>
+        </div>
+        <nav class="menu-opcoes menu-cabecalho">
+            <ul>
+                <li><a href="./conta/conta.html">Sua Conta</a></li>
+                <li><a href="#">Lista de Desejos</a></li>
+                <li><a href="./cartaofidelidade/cartao.html">Cartão Fidelidade</a></li>
+                <li><a href="./sobre/sobre.htm">Sobre</a></li>
+                <li><a href="./ajuda/ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+        
+    </header> 
+    <main>
+        <div class="container destaque">
+            <section class="busca">
+              <h2>Busca</h2>
+              <form>
+                <input type="search" placeholder="Pesquisar...">
+                <input type="image" src="./img/busca.png" alt="Buscar">
+              </form>
+            </section><!-- fim .busca -->
+            
+            <section class="menu-departamentos">
+              <h2>Departamentos</h2>
+              <nav>
+                <ul>
+                  <li><a href="./departamento/blusa.html">Blusas e Camisas</a></li>
+                  <li><a href="./departamento/calcas.html">Calças</a></li>
+                  <li><a href="./departamento/saias.html">Saias</a></li>
+                  <li><a href="./departamento/vestidos.html">Vestidos</a></li>
+                  <li><a href="./departamento/sapatos.html">Sapatos</a></li>
+                  <li><a href="#">Bolsas e Carteiras</a></li>
+                  <li><a href="#">Acessórios</a></li>
+                </ul>
+              </nav>
+            </section>
+            
+            <img src="./img/page.jpg" alt="Promoção: Big City Night" width="350px" class="page">
+          </div>
+          
+          <div class="container paineis">
+            <!-- os paineis de novidades e mais vendidos entrarão aqui dentro -->
+            <section class="painel novidades">
+              <h2>Novidades</h2>
+              <ol>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/blusacafe.png" width="140px">
+                      <figcaption>T-Shirt por R$ 129,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/shortmarron.png" width="130px">
+                      <figcaption>Short Marrom por R$ 239,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/vestidocoracoes.png" width="150px">
+                      <figcaption>Vestido por R$ 300,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/blusabranca.png" width="145px">
+                      <figcaption>Blusa Branca por R$ 149,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/calcaf.png" width="120px">
+                      <figcaption>Calça Pink por R$ 350,99</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/blusao.png" width="135px">
+                      <figcaption>Suéter por R$ 270,9</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+              </ol>
+            </section>
+          
+            <section class="painel mais-vendidos">
+              <h2>Mais Vendidos</h2>
+              <ol>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/vestidoroxo.png" width="110px">
+                      <figcaption>Vestido Roxo por R$ 149,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/saiacouro.png" width="132px">
+                      <figcaption>Saia de Couro por R$ 300,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/casacoF.png" width="113px">
+                      <figcaption>Casaco Bege por R$ 239,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/saialonga.png" width="108px">
+                      <figcaption>Saia Longa por R$ 350,99</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/t-shirt.png" width="120px">
+                      <figcaption>T- T-Shirt por R$ 70,90</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="produto.html">
+                    <figure>
+                      <img src="./produto/img/vestidofesta.png" width="120px">
+                      <figcaption>Vestido Festa por R$ 270,99</figcaption>
+                    </figure><button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+                  </a>
+                </li>
+              </ol>
+            </section>
+          </div>
+        </main>
+    
+    <footer>
+       <p><strong>MimeLys&copy; - 2024</strong></p>
+       <p>
+       <strong>Telefone:</strong> 
+       (48) 3042-0010 <br>contato@mimelys.com <br>Segunda a Sexta-feira das 08:00 às 18:00
+       </p>
+       <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

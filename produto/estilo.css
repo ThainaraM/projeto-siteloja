@@ -1,0 +1,42 @@
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 400px;
+    }
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+        }
+    
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+       }
+    
+.painel a {
+    color: #333;
+    font-size: 13px;
+    text-align: left;
+    text-decoration: none;}
+
+
+.novidades {
+    float: left;
+    background-color: #f5dcdc;
+    
+    }
+
+.mais-vendidos {
+    float: right;
+    background-color: #dcdcf5;
+    }
+
+
+
+

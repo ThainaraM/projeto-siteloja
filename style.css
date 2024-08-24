@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+header {
+    position: relative;
+    }
+
+#cabecalho {
+    width: 100%;
+    background-color: #FFE3E2; /* Ajuste conforme necessário */
+    padding: 3px 0; /* Espaçamento dentro do cabeçalho */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique acima do conteúdo */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#cabecalho .logo {
+    flex: 1.1;
+    
+}
+.logo {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+#cabecalho .texto {
+    flex: 6;
+    text-align: center;
+   
+}
+.sacola {
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#cabecalho .sacola {
+    flex: 5;
+    text-align:right;
+    margin-right: 10px; /* Ajuste conforme necessário */
+}
+
+#cabecalho .menu-opcoes {
+    flex-basis: auto;
+    text-align: right;
+    margin-top: 30px; /* Espaçamento superior para o menu */
+    gap: 30px;
+    
+    
+}
+
+.menu-opcoes ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-opcoes ul li {
+    margin-right: 15px; /* Espaçamento entre os itens do menu */
+}
+
+.menu-opcoes ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor do texto, ajuste conforme necessário */
+}
+.menu-opcoes ul li a:hover {
+    color: #007BFF ; /* Cor do texto ao passar o mouse por cima, ajuste conforme necessário */
+}
+
+/* Style Body */
+
+main{
+    min-width: 150px;
+    max-width: 387px;
+    margin-top: 7.6%;
+    padding: 21px; 
+    background-color: white;
+    /*box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.129); */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    flex-basis: auto;
+  }  
+   
+  
+.busca input {
+    vertical-align: middle;
+    }
+
+.busca input[type=search] {
+    width: 190px;
+    }
+
+.busca {
+    margin-bottom: 10px;
+    flex: 1;
+}
+.busca, .menu-departamentos {
+    float: left;
+}
+
+.busca, .menu-departamentos {
+  background-color: #F5ECE3;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+  width: 300px;
+  gap: 10;
+}
+
+.busca h2,.busca form, .menu-departamentos h2 {
+   margin: 10px;}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+section.busca form {
+    display: flex;
+    align-items: center;
+}
+
+section.busca input[type="search"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+section.busca input[type="image"] {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.menu-departamentos {
+    width: 200px;
+    margin-right: 20px;
+    clear: left;
+}
+
+.menu-departamentos h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.menu-departamentos nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-departamentos nav ul li {
+    margin-bottom: 10px;
+}
+
+.menu-departamentos > nav > ul > li > a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.menu-departamentos > nav > ul > li a:hover {
+    color: #007BFF;}
+
+.page {
+    padding-top: 8px;
+}
+/* Produto */
+
+.painel {
+    margin: 0 auto;
+    padding: 22px;
+    text-align: center;
+    width: 470px;
+    height: 650px;
+   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    flex-basis: auto;
+    flex: 1;
+    display: block;
+   
+ 
+    } 
+
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 20px;
+        }
+    
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+       }
+    
+.painel a {
+    color: #333;
+    font-size: 13px;
+    text-align: left;
+    text-decoration: none;}
+
+
+
+
+.novidades {
+
+    float: left;
+    background-color: #e1e1e1;
+    transform: translate(85%);
+    margin: 10px;
+    position: absolute;
+    top: 0; /* Move a caixa 50px para baixo do topo do contêiner */
+    left: -18px; /* Move a caixa 50px para a direita do lado esquerdo do contêiner
+    */
+    padding-top: 156px;
+    
+    }
+.novidades img {
+    height: 200px;
+    object-fit: cover;
+    width: 110px;
+
+}
+
+.mais-vendidos {
+    float: right;
+    background-color: #eeeef4;
+    transform: translate(12%);
+    margin: 10px;
+    position: absolute;
+    top: 0; /* Move a caixa 50px para baixo do topo do contêiner */
+    right: 50px; /* Move a caixa 50px para a direita do lado esquerdo do contêiner
+    */
+    padding-top: 156px;
+    }
+.mais-vendidos img {
+    height: 200px;
+    object-fit: cover;
+    width: 110px;
+
+}
+
+
+footer {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    color: #333;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffe3e2ad; /* Ajuste conforme necessário */
+    text-align: center;
+    
+}
+
+            

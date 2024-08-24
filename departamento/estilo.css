@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFE3E2;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #FFE3E2; /* Ajuste conforme necessário */
+    padding: 3px 0; /* Espaçamento dentro do cabeçalho */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique acima do conteúdo */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    
+    
+}
+.text {
+    flex: 6;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    flex-basis: auto;
+    text-align: right;
+    margin-top: 30px; /* Espaçamento superior para o menu */
+    gap: 30px;
+}
+.menu ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin-right: 15px; /* Espaçamento entre os itens do menu */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor do texto, ajuste conforme necessário */
+}
+.menu ul li a:hover {
+    color: #007BFF ; /* Cor do texto ao passar o mouse por cima, ajuste conforme necessário */
+}
+
+main {
+    min-width: 150px;
+    max-width: 80%;
+    margin: auto;
+    padding: 100px;; 
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    flex-basis: auto;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    gap: 40px; /* Espaço entre os itens */
+    
+    
+}
+
+.product-list li {
+    flex: 1 1 150px; /* Itens flexíveis com largura mínima de 150px */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-list img {
+   
+        height: 200px;
+        object-fit: cover;
+        width: 200px;
+    
+}
+
+footer {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffe3e2ad; /* Ajuste conforme necessário */
+    text-align: center;
+    
+}
+
+    
