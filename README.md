@@ -14,13 +14,9 @@ Página de Produtos: Lista de produtos organizados com imagens e descrições.
 
 Página de Detalhes do Produto: Detalhes individuais do produto, incluindo preço, descrição e opções de compra.
 
-Carrinho de Compras: Visualização e gerenciamento de itens adicionados ao carrinho.
-
-Checkout: Formulário para finalização de compra.
 
 Página Sobre: Informações sobre a loja MimeLys.
 
-Página de Contato: Formulário para os usuários entrarem em contato com a loja.
 
 Tecnologias Utilizadas
 
@@ -33,13 +29,13 @@ Estrutura do Projeto
 O projeto está organizado da seguinte maneira:
 
 MimeLys/
-|-- index.html              # Página inicial
-|-- produto.html            # Página de produtos
-|-- cartaofidelidade.html   # Cadastro
-|-- conta.html              # Acessar a conta
-|-- ajuda.html              # Guia para solucionar possiveis duvidas
-|-- sobre.html          # Página sobre a loja
-|-- departamento.html        # Página de Roupas
+|-- index.html              # Página inicial <br>
+|-- produto.html            # Página de produtos <br>
+|-- cartaofidelidade.html   # Cadastro <br>
+|-- conta.html              # Acessar a conta <br>
+|-- ajuda.html              # Guia para solucionar possiveis duvidas <br>
+|-- sobre.html              # Página sobre a loja <br>
+|-- departamento.html        # Página de Roupas <br>
 |-- css/
     |-- estilo.css      # Estilos principais
     |-- responsivo.css  # Estilos para responsividade
