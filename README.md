@@ -1,12 +1,12 @@
 <h1>MimeLys - Loja Feminina</h1>
 
 Bem-vindo ao repositório do projeto MimeLys, uma loja feminina desenvolvida utilizando apenas HTML e CSS. Este projeto foi criado para oferecer uma experiência de compra elegante e intuitiva para o público-alvo da loja.
-<hr>
+
 <h2>Objetivo</h2>
 
 O objetivo principal deste projeto é criar um site responsivo e visualmente atraente que represente a identidade da loja MimeLys, com foco em oferecer uma interface amigável e um design moderno.
-<hr>
-<2>Funcionalidades</h2>
+
+<h2>Funcionalidades</h2>
 
 Página Inicial: Destaque para promoções, novidades e coleções em destaque.
 
@@ -17,13 +17,13 @@ Página de Detalhes do Produto: Detalhes individuais do produto, incluindo preç
 
 Página Sobre: Informações sobre a loja MimeLys.
 
-<hr>
+
 <h2>Tecnologias Utilizadas</h2>
 
 HTML5: Estrutura e conteúdo das páginas.
 
 CSS3: Estilização e responsividade do site.
-<hr>
+
 <h2>Estrutura do Projeto</h2>
 
 O projeto está organizado da seguinte maneira:
@@ -39,8 +39,8 @@ MimeLys/
 |-- css/<br>
     |-- estilo.css      # Estilos principais <br>
     |-- responsivo.css  # Estilos para responsividade <br>
-|-- imagens/            # Imagens utilizadas no site
-<hr>
+|-- imagens/            # Imagens utilizadas no site <br>
+
 <h2>Paleta de Cores</h2>
 
 A identidade visual da loja utiliza as seguintes cores:
