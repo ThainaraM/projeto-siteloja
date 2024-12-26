@@ -28,7 +28,7 @@ CSS3: Estilização e responsividade do site.
 
 O projeto está organizado da seguinte maneira:
 
-MimeLys/
+MimeLys/ <br>
 |-- index.html              # Página inicial <br>
 |-- produto.html            # Página de produtos <br>
 |-- cartaofidelidade.html   # Cadastro <br>
